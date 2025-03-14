@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honey Super Markets</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Honey Super Markets</h1>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Full-Screen Slideshow -->
+    <div class="slideshow-container">
+        <div class="slide active-slide">
+            <img src="Tf.jpg" alt="Slide 1">
+        </div>
+        <div class="slide">
+            <img src="Tf2.jpg" alt="Slide 2">
+        </div>
+        <div class="slide">
+            <img src="Tf3.jpg" alt="Slide 3">
+        </div>
+
+        <!-- Slideshow Navigation -->
+        <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="next" onclick="changeSlide(1)">&#10095;</button>
+
+        <!-- Navigation Dots -->
+        <div class="dots">
+            <span class="dot active" onclick="setSlide(0)"></span>
+            <span class="dot" onclick="setSlide(1)"></span>
+            <span class="dot" onclick="setSlide(2)"></span>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Honey Super Markets. All rights reserved.</p>
+    </footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
